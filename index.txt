@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Мастер-строй | Главная</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/queries.css">
+	<link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+</head>
+<body>
+<div class="flex container">
+	<header class="flex">
+		<div class="flex logo">
+			<img src="images/logo.png" alt="">
+			<span>Мастер-строй</span>
+		</div>
+
+		<img src="images/menu.png" class="menu_icon" alt="">
+
+		<nav class="flex header_nav">
+			<a href="" class="flex nav_item">О нас<div class="text_decor"></div></a>
+			<a href="catalog.html" class="flex nav_item">Недвижимость<div class="text_decor"></div></a>
+			<a href="" class="flex nav_item">Связаться<div class="text_decor"></div></a>
+		</nav>
+	</header>
+
+	<div class="flex short_desc">
+		<div class="flex left">
+			<h2>Загородные дома<br>по низким ценам</h2>
+			<p>Наша кампания занимается строительством качественных и недорогих загородных домов на протижении многих лет</p>
+			<div class="flex search_bar">
+				<input type="text" placeholder="Найти дом">
+				<img src="images/search.png" alt="">
+			</div>
+		</div>
+		<img class="big_pic" src="images/headerPic.png" alt="">
+	</div>
+
+	<div class="flex h3_wrapper">
+		<h3>О нас</h3>
+		<div class="text_decor"></div>
+	</div>
+
+	<section class="flex about_us">
+		<div class="flex about_us_text">
+			<h2>Номер 1. Что-то про кампанию</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam explicabo voluptate ratione ab sit neque</p>
+		</div>
+		<div class="flex about_us_slider1">
+			<img src="images/picSliderArrow.png" alt="" class="slider_arrow_reverse">
+			<img src="images/picSliderArrow.png" alt="" class="slider_arrow">
+		</div>
+	</section>
+	<section class="flex about_us reverse">
+		<div class="flex about_us_text">
+			<h2>Номер 2. Что-то про материалы</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam explicabo voluptate ratione ab sit neque</p>
+		</div>
+		<div class="flex about_us_slider2">
+			<img src="images/picSliderArrow.png" alt="" class="slider_arrow_reverse">
+			<img src="images/picSliderArrow.png" alt="" class="slider_arrow">
+		</div>
+	</section>
+	<section class="flex about_us">
+		<div class="flex about_us_text">
+			<h2>Номер 3. Что-то про работников</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam explicabo voluptate ratione ab sit neque</p>
+		</div>
+		<div class="flex about_us_slider3">
+			<img src="images/picSliderArrow.png" alt="" class="slider_arrow_reverse">
+			<img src="images/picSliderArrow.png" alt="" class="slider_arrow">
+		</div>
+	</section>
+
+	<div class="flex link">Узнать подробнее про кампанию<div class="text_decor"></div></div>
+
+	<div class="flex h3_wrapper">
+		<h3>Каталог</h3>
+		<div class="text_decor"></div>
+	</div>
+
+	<div class="flex house_cards">
+		<div class="flex house_card">
+			<img src="images/house1.png" alt="" class="house_preview">
+			<div class="house_card_name">Название дома</div>
+			<div class="flex feature">
+				<div class="name">Площадь</div>
+				<div class="value">250 м<sup>2</sup></div>
+			</div>
+			<div class="flex feature">
+				<div class="name">Размеры</div>
+				<div class="value">10м * 12м</div>
+			</div>
+			<div class="flex feature">
+				<div class="name">Этажей</div>
+				<div class="value">2 этажа</div>
+			</div>
+			<div class="flex feature">
+				<div class="name">Высота этажей</div>
+				<div class="value">3 метра</div>
+			</div>
+			<div class="price">15 000 000 ₽</div>
+		</div>
+		<div class="flex house_card">
+			<img src="images/house2.png" alt="" class="house_preview">
+			<div class="house_card_name">Название дома</div>
+			<div class="flex feature">
+				<div class="name">Площадь</div>
+				<div class="value">300 м<sup>2</sup></div>
+			</div>
+			<div class="flex feature">
+				<div class="name">Размеры</div>
+				<div class="value">10м * 12м</div>
+			</div>
+			<div class="flex feature">
+				<div class="name">Этажей</div>
+				<div class="value">2 этажа</div>
+			</div>
+			<div class="flex feature">
+				<div class="name">Высота этажей</div>
+				<div class="value">2,5 метра</div>
+			</div>
+			<div class="price">21 000 000 ₽</div>
+		</div>
+		<div class="flex house_card">
+			<img src="images/house3.png" alt="" class="house_preview">
+			<div class="house_card_name">Название дома</div>
+			<div class="flex feature">
+				<div class="name">Площадь</div>
+				<div class="value">190 м<sup>2</sup></div>
+			</div>
+			<div class="flex feature">
+				<div class="name">Размеры</div>
+				<div class="value">7м * 10м</div>
+			</div>
+			<div class="flex feature">
+				<div class="name">Этажей</div>
+				<div class="value">2 этажа</div>
+			</div>
+			<div class="flex feature">
+				<div class="name">Высота этажей</div>
+				<div class="value">2,7 метра</div>
+			</div>
+			<div class="price">9 000 000 ₽</div>
+		</div>
+	</div>
+
+	<div class="flex link">Посмотреть полный каталог<div class="text_decor"></div></div>
+
+	<div class="flex h3_wrapper">
+		<h3>Связаться</h3>
+		<div class="text_decor"></div>
+	</div>
+</div>
+
+<section class="flex contact_form">
+	<h4>Свяжитесь с нами</h4>
+	<form class="flex">
+		<input placeholder="Имя" type="text">
+		<input placeholder="Телефон" type="text">
+		<input placeholder="Почта" type="text"><br>
+		<button>Отправить</button>
+	</form>
+	<p>Заполните заявку по форме выше или напишите/позвоните нам:</p>
+	<a href="mailto:michael.mitchell@example.com">michael.mitchell@example.com</a>
+	<a href="callto:(671) 555-0110">(671) 555-0110</a>
+</section>
+
+<footer>	
+	<div class="flex top">
+		<div class="flex footer_container">
+			<nav class="flex footer_nav">
+				<a href="" class="flex nav_item">О нас</a>
+				<a href="" class="flex nav_item">Недвижимость</a>
+				<a href="" class="flex nav_item">Связаться</a>
+			</nav>
+
+			<div class="flex social">
+				<img src="images/inst.png" alt="">
+				<img src="images/tumblr.png" alt="">
+				<img src="images/vk.png" alt="">
+				<img src="images/yt.png" alt="">
+			</div>
+		</div>
+	</div>
+	<div class="flex bot">Мастер-строй, все права защищены © 2020</div>	
+</footer>
+</body>
+</html>

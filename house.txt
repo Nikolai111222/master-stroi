@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Мастер-строй | Название дома</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/queries.css">
+	<link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+</head>
+<body>
+<div class="flex container">
+	<div class="flex return"><img src="images/cardSliderArrow.png">Каталог</div>
+
+	<div class="flex h3_wrapper">
+		<h3>Описание</h3>
+		<div class="text_decor"></div>
+	</div>
+
+	<h2>Название дома</h2>
+	<div class="main_house_pic"></div>
+	<p class="house_p">
+		Dolor consequat labore anim in commodo consectetur minim. Consectetur excepteur cillum cupidatat consequat non consectetur eiusmod officia aliquip qui. Est nisi id eiusmod non aute esse anim non quis. Id elit incididunt labore cupidatat irure sint id nulla ipsum.
+	</p>
+	<p class="house_p">
+		Aliquip commodo deserunt ullamco id laborum. In exercitation ullamco duis ipsum occaecat dolor. Est laboris magna duis et irure in veniam pariatur cupidatat excepteur fugiat. Amet irure duis velit laboris.
+	</p>
+	<p class="house_p">
+		Commodo eu exercitation esse commodo reprehenderit exercitation adipisicing. Do quis laborum nulla tempor nostrud incididunt occaecat. Sint magna non eiusmod deserunt est. Consequat ullamco nisi duis excepteur adipisicing enim in nostrud mollit do et proident labore.
+	</p>
+
+	<div class="flex h3_wrapper">
+		<h3>Характеристики</h3>
+		<div class="text_decor"></div>
+	</div>
+
+	<div class="features">
+		<div class="features_column">
+			<div class="flex feature">
+				<div class="name">Свойство</div>
+				<div class="value">Значение</div>
+			</div>
+			<div class="flex feature">
+				<div class="name">Свойство</div>
+				<div class="value">Значение</div>
+			</div>
+			<div class="flex feature">
+				<div class="name">Свойство</div>
+				<div class="value">Значение</div>
+			</div>
+			<div class="flex feature">
+				<div class="name">Свойство</div>
+				<div class="value">Значение</div>
+			</div>
+		</div>
+		<div class="features_column">
+			<div class="flex feature">
+				<div class="name">Свойство</div>
+				<div class="value">Значение</div>
+			</div>
+			<div class="flex feature">
+				<div class="name">Свойство</div>
+				<div class="value">Значение</div>
+			</div>
+			<div class="flex feature">
+				<div class="name">Свойство</div>
+				<div class="value">Значение</div>
+			</div>
+			<div class="flex feature">
+				<div class="name">Свойство</div>
+				<div class="value">Значение</div>
+			</div>
+		</div>
+		<div class="features_column">
+			<div class="flex feature">
+				<div class="name">Свойство</div>
+				<div class="value">Значение</div>
+			</div>
+			<div class="flex feature">
+				<div class="name">Свойство</div>
+				<div class="value">Значение</div>
+			</div>
+			<div class="flex feature">
+				<div class="name">Свойство</div>
+				<div class="value">Значение</div>
+			</div>
+			<div class="flex feature">
+				<div class="name">Свойство</div>
+				<div class="value">Значение</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="flex h3_wrapper">
+		<h3>Покупка</h3>
+		<div class="text_decor"></div>
+	</div>
+
+	<p class="house_p">
+		Aliquip commodo deserunt ullamco id laborum. In exercitation ullamco duis ipsum occaecat dolor. Est laboris magna duis et irure in veniam pariatur cupidatat excepteur fugiat. Amet irure duis velit laboris.
+	</p>
+
+	<div class="house_p">
+		Цена объекта: <span class="house_price">15 000 000 р</span>
+		<div class="price">
+			Оформить
+			<img src="images/cart.png">
+		</div>
+	</div>
+
+	<div class="advice">
+		Остались вопросы? Спросите у нас по телефону <a href="tel:+7 888 222 55-62">+7 888 222 55-62</a><br>или оставьте заявку на <a href="">форме обратной связи</a>
+	</div>
+</div>
+</body>
+</html>
